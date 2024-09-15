@@ -54,7 +54,7 @@ describe('Testes da Funcionalidade crud', () => {
     it('Deve listar todos os usuarios', () => {
         cy.api({
             method: 'GET',
-            url: 'https://serverest.dev/usuarios/GN5RQ6OuUQBg1X1x'
+            url: 'https://serverest.dev/usuarios/FcxCq7KTZT0J1hNu'
         }).then((response) => {
 
             expect(response.status).to.equal(200)

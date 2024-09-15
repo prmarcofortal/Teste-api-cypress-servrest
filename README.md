@@ -18,12 +18,19 @@ npm install
 2. Executar testes em Headless
  
 ````````
-npx Cypress run 
+ npx Cypress open
  
 ``````````
 3. Executar de modo interativo
  
 ````
-npx Cypress open
+npx Cypress run
  
+``````
+
+4. Para rodar em pipiline
+
+``````
+Clicar no botao Git Actions
+
 ``````
